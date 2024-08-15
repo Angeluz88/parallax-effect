@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>parallax</title>
+</head>
+<body>
+    <section class="banner">
+        <div class="container">
+            <div id="scene">
+                <h2 id="text">
+                    <span data-depth-y="2">D</span>
+                    <span data-depth-y="-2">E</span>
+                    <span data-depth-y="5">V</span>
+                    <span data-depth-y="-3">S</span>
+                    <span data-depth-y="7">A</span>
+                    <span data-depth-y="-4">C</span>
+                    <span data-depth-y="3">C</span>
+                    <span data-depth-y="2">O</span>
+                    <span data-depth-y="-5">N</span>
+                    <span data-depth-y="1">E</span>
+                </h2>
+                <div class="layer z" data-depth="-0.5"><img src="img/img1.png"/></div>
+                <div class="layer z" data-depth="0.75"><img src="img/img2.png"/></div>
+                <div class="layer z" data-depth="-2"><img src="img/img3.png"/></div>
+                <div class="layer" data-depth="3"><img src="img/img4.png"/></div>
+                <div class="layer" data-depth="-1"><img src="img/img5.png"/></div>
+                <div class="layer" data-depth="0.5"><img src="img/img6.png"/></div>
+                <div class="layer z" data-depth="-3"><img src="img/img7.png"/></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
